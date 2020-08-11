@@ -1,0 +1,12 @@
+export const barMenu = document.querySelector('.menuicon');
+export const xMenu = document.querySelector('.closemenu');
+export const sideMenu = document.querySelector('.sidenav');
+export const arrowLeft = document.querySelector('.fa-arrow-left');
+export const arrowRight = document.querySelector('.fa-arrow-right');
+export const mainDiv = document.querySelector('.background');
+export const description = document.querySelector('h4')
+export const info=document.querySelector('footer h3');
+export const footer=document.querySelector('.hiddenfooter');
+export const xFooter=document.querySelector('.closefooter');
+export const mail=document.querySelector('.mailform');
+export const searchBar=document.querySelector('.searchbar');
