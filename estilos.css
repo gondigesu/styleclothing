@@ -27,7 +27,7 @@ header{
 
 
 .menuicon{
-    font-size: 20px;
+    font-size: 35px;
     padding:20px;
     padding-left:20px;
 }
@@ -35,17 +35,8 @@ header{
 .buscador{
     width:30%;
     padding:20px;
-    font-size:15px;
     display:flex;
     justify-content:center;
-}
-
-.lineabuscar{
-    margin-top:19px;
-    margin-left:5px;
-    height:2px;
-    width:50%;
-    background-color: white;
 }
 
 .datos-usuario{
