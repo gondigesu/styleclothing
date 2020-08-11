@@ -1,0 +1,166 @@
+*{
+    box-shadow: border-box;
+    list-style: none;
+    margin:0px;
+    padding:0px;
+    text-decoration:none;
+    font-family: "Neue-Helvetica","Helvetica","Arial",Sans-Serif;
+}
+
+header{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    align-items:center;
+    color:white;
+}
+
+.menu,
+.logo{
+    width:20%;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+}
+
+
+.menuicon{
+    font-size: 20px;
+    padding:20px;
+    padding-left:20px;
+}
+
+.buscador{
+    width:30%;
+    padding:20px;
+    font-size:15px;
+    display:flex;
+    justify-content:center;
+}
+
+.lineabuscar{
+    margin-top:19px;
+    margin-left:5px;
+    height:2px;
+    width:50%;
+    background-color: white;
+}
+
+.datos-usuario{
+    width:30%;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size:15px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: white; 
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.5s;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color:black;
+  }
+
+  .sidenav li h2{
+      padding:10px;
+      font-size:30px;
+  }
+
+  .closemenu{
+      position: absolute;
+      top:20px;
+      right: 30px;
+  }
+
+  .modelos li{
+      padding:1px;
+      font-size: 15px;
+  }
+
+  .background{
+      height:100vh;
+      width:100vw;
+  }
+
+  .background{
+      background-image:url('/img/backgroundmujer.jpg');
+      background-size:cover;
+      position:absolute;
+      top:0px;
+      z-index:-1;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+
+.anuncio{
+    padding:50px;
+    height:40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    color:white;
+}
+
+.anuncio h1{
+    font-size: 65px;
+    font-weight: 900;
+    padding:10px;
+}
+
+.anuncio a{
+    width:20%;
+    height:20%
+}
+
+
+.button{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: white;
+    color:white;
+    width:100%;
+    text-align: center;
+
+}
+
+.hombres,
+.chicos{
+    color:white;
+    padding:30px;
+    font-size:17px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chicos{
+    flex-direction:row-reverse;
+}
+
+.hombres i,
+.chicos i{
+    font-size: 40px;
+    padding:10px;
+}
+
+.logo{
+    font-size: 30px;
+}
